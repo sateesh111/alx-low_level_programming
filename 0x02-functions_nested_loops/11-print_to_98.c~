@@ -1,0 +1,9 @@
+#include "holberton.h"
+
+/**
+ * print_to_98 - prints upto 98
+ *
+ * @n: starting number
+ *
+ * Return: void
+ */
