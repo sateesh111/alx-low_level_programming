@@ -1,0 +1,9 @@
+#include "halberton.h"
+
+/**
+ * _abs - compute absolute value
+ *
+ * @num: value to compute
+ *
+ * Return: num, the absolute value
+ */
