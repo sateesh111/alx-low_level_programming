@@ -1,0 +1,9 @@
+#include "holberton.h"
+
+/**
+ * print_last_digit - compute and print last digit
+ *
+ * @num: number to be computed
+ *
+ * Return: last digit of num
+ */
