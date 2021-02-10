@@ -1,0 +1,11 @@
+#include "holberton.h"
+
+/**
+ * add - computes addition of two integers
+ *
+ * @num1: first integer
+ *
+ * @num2: second integer
+ *
+ * Return: result of addition
+ */
