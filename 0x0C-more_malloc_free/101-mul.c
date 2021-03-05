@@ -17,7 +17,9 @@ int _isdigit(char *s)
 int count = 0;
 
 while (*(s + count))
+
 {
+
 if (*(s + count) > '9' || *(s + count) < '0')
 
 return (0);
@@ -25,6 +27,7 @@ return (0);
 count++;
 
 }
+
 return (1);
 
 }
@@ -56,14 +59,23 @@ exit(98);
 }
 
 if (!_isdigit(argv[1]) || !_isdigit(argv[2]))
+
 {
+
 printf("Error\n");
 
 exit(98);
+
 }
+
 num1 = atoi(argv[1]);
+
 num2 = atoi(argv[2]);
+
 res = num1 *num2;
+
 printf("%d\n", res);
+
 return (0);
+
 }
