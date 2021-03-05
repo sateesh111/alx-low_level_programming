@@ -3,35 +3,26 @@
 #include <stdlib.h>
 
 
-
 /**
-
- * malloc_checked - allocate memory using malloc
-
- *
-
- * @b: size of memory
-
- *
-
- * Return: memory
-
- */
+* malloc_checked - allocate memory using malloc
+*
+* @b: size of memory
+*
+* Return: memory
+**/
 
 void *malloc_checked(unsigned int b)
 
 {
 
-  void *memo;
+void *memo;
 
-  
+memo = malloc(b);
 
-  memo = malloc(b);
+if (memo == NULL)
 
-  if (memo == NULL)
+exit(98);
 
-    exit(98);
-
-  return (memo);
+return (memo);
 
 }
